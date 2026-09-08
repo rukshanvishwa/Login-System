@@ -35,7 +35,8 @@ h2{
     margin-bottom: 20px;
 }
 
-input{
+input,
+select {
     width: 100%;
     padding: 12px;
     background: #eee;
@@ -60,4 +61,23 @@ button{
     font-weight: 500;
     margin-bottom: 20px;
     transition: 0.5s;
+}
+
+button:hover{
+    background: #6884d3;
+}
+
+p{
+   font-size: 14.5px;
+   text-align: center;
+   margin-bottom: 10px; 
+}
+
+p a {
+    color: #7494ec;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
